@@ -1,0 +1,82 @@
+body {
+    background-image: url('blurishbg3.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: hsl(210, 77%, 33%); /* Fallback color */
+}
+.modal-header {
+    background-color: #007bff;
+    color: white;
+}
+.modal-content {
+    border-radius: 8px;
+}
+.table thead th {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2; /* Zebra striping */
+}
+.table tbody tr:hover {
+    background-color: #e6f7ff; /* Hover effect */
+    cursor: pointer;
+}
+.table td, .table th {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #dee2e6;
+}
+.table {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.container {
+    background-color: hsl(37, 100%, 70%); /* Light orange-yellow for contrast */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.btn-primary, .btn-warning, .btn-danger {
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.btn-warning {
+    background-color: #ffc107;
+    border: none;
+}
+.btn-warning:hover {
+    background-color: #e0a800;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+}
+.btn-danger:hover {
+    background-color: #c82333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.btn a {
+    color: white;
+    text-decoration: none;
+}
+.btn a:hover {
+    color: #dcdcdc;
+}

@@ -1,0 +1,12 @@
+{
+    "dependencies":{
+        "coldbox":"^7.3.0+16"
+    },
+    "installPaths":{
+        "coldbox":"coldbox/"
+    },
+    "location":"forgeboxStorage",
+    "name":"Quickstart",
+    "slug":"quickstart",
+    "version":"1.0.0"
+}
